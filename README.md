@@ -4,8 +4,8 @@ This repository contains multiple Frappe applications, each residing in its resp
 
 ## Frappe Applications Included
 
-- [frappe-builder](./frappe-builder): A Frappe application for building and construction management.
-- [frappe-drive](./frappe-drive): A Frappe application for document management and collaboration.
+- [frappe-builder](./frappe-builder): Crafting Web Pages Made Effortless!
+- [frappe-drive](./frappe-drive): An easy to use, document sharing and management solution.
 - [frappe-gameplan](./frappe-gameplan): A Frappe application for planning and managing gaming events.
 - [frappe-healthcare](./frappe-healthcare): A Frappe application for healthcare management.
 - [frappe-helpdesk](./frappe-helpdesk): A Frappe application for helpdesk and customer support.
