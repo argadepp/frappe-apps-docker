@@ -12,6 +12,7 @@ This repository contains multiple Frappe applications, each residing in its resp
 - [frappe-hrms](./frappe-hrms): A Frappe application for human resource management.
 - [frappe-lending](./frappe-lending): A Frappe application for managing lending activities.
 - [frappe-lms](./frappe-lms): A Frappe application for learning management.
+- [frappe-webshop](./frappe-webshop): Frappe webshop is an Open Source eCommerce Platform
 
 ## Getting Started
 
