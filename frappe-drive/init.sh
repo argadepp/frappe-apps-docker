@@ -24,11 +24,9 @@ sed -i '/watch/d' ./Procfile
 
 bench get-app https://github.com/frappe/drive
 
-bench new-site drive
 
-bench --site drive add-to-hosts
+bench new-site drive --force --no-mariadb-socket --admin-password=admin --db-host=mariadb --db-root-password=123 --install-app drive --set-default
 
-bench --site drive install-app drive
 
 bench start
 
