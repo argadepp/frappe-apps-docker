@@ -23,8 +23,8 @@ services:
       - SHELL=/bin/bash
     working_dir: /home/frappe
     ports:
-      - 7001:8000
-      - 6001:9000
+      - "${FRAPPE_HOST_PORT}:8000"
+      - "${FRAPPE_INTERNAL_PORT}:9000"
 
 volumes:
   mariadb-data:
