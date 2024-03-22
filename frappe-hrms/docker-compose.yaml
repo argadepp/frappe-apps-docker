@@ -17,9 +17,9 @@ services:
     image: redis:alpine
 
   frappe:
-    # image: ghcr.io/argadepp/frappehrms:master
-    build:
-      context: .
+    image: ghcr.io/argadepp/frappehrms:master
+    # build:
+    #   context: .
     command: bash /home/frappe/init.sh
     environment:
       - SHELL=/bin/bash
